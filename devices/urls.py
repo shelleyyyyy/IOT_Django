@@ -5,5 +5,6 @@ from . import views
 # URL configuation
 
 urlpatterns = [
-    path('hello/', views.hello_world)
+    path('hello/', views.hello_world),
+    path('testJson/', views.profile),
 ]
