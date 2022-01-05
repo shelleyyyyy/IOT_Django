@@ -7,4 +7,5 @@ from . import views
 urlpatterns = [
     path('hello/', views.hello_world),
     path('testJson/', views.profile),
+    path('post_test/', views.post_test),
 ]
